@@ -11,19 +11,23 @@ body{
     }
 }
 header{
+    max-width: 1000px;
+    margin: auto;
     img{
-        width: 500px;
+        max-width: 1000px;
         object-fit: cover;
     }
 }
 
 main{
+
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-items: center;
     justify-content: center;
-    max-width: 1200px;
+    max-width: 700px;
     padding: 20px;
 
     h1{
@@ -39,8 +43,7 @@ main{
     font-family: 'Contrail One';
     font-size: 1.5em;
     color: #ffed00;
-    max-width: 800px;
-    max-height: 200px;
+    margin: auto;
     background-color:  #e27c38;
     padding: 10px;
     border-radius: 5px;
@@ -52,9 +55,7 @@ main{
 }
 
 footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
     margin-top: 10px;
 
     div{
